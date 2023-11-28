@@ -1,0 +1,19 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+.header{
+    background: linear-gradient(270deg, #CFEDD2 0%, #DEEDCF 0.01%, #FFF 98.09%);
+    height: 150px;
+}
+
+
+.footer{
+    background: #DEEDCF;
+    height: 250px;
+    border-top: 1px black solid;
+    
+}
