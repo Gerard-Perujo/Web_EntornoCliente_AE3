@@ -1,3 +1,4 @@
+/* Los siguientes elementos se posicionan correctamente cuando la pantalla es de 13'3 pulgadas*/
 
 body{
     background-image: url('../../assets/ending2.jpg');
@@ -52,7 +53,7 @@ text-align: center;
     margin-right: 200px;
     font-size: 18px;
     background-color: rgba(255, 255, 255, 0.75);
-    margin-top: 48px;
+    margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
     border: 3px solid black;
     padding: 8px;

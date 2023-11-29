@@ -1,3 +1,4 @@
+/* Los siguientes elementos se posicionan correctamente cuando la pantalla es de 13'3 pulgadas*/
 
 body{
     background-image: url('../../assets/correo.jpg');
@@ -5,11 +6,10 @@ body{
     background-repeat: no-repeat;
     background-position: center center; 
     height: 100vh;
-
     overflow: hidden;
 }
 
-/*-----------------------------------------------------------Navegador---------------------------------------------------------------*/
+/*--------------------------------------------Navegador---------------------------------------*/
 
 nav{
     background-color: pink;
@@ -44,19 +44,13 @@ nav span{
     transform: translateY(-50%);
 }
 
-/*---------------------------------------------------------Cuerpo------------------------------------------------------------*/
+/*------------------------------------------------Cuerpo---------------------------------*/
 
 h1{
-   margin-left: 62.5%;
-    font-size: 55px;
-    margin-top: 203px;
-    /*background-color: white;*/
+   margin-left: 61.5%;
+    font-size: 45px;
+    margin-top: 162px;
     color: white;
-    /*text-shadow: 
-        -1px -1px 0 #000,  
-         1px -1px 0 #000,
-         -1px 1px 0 #000,
-          1px 1px 0 #000;*/
     text-shadow:
         3px 3px 5px #000, 
         -3px -3px 5px #000;
@@ -69,9 +63,9 @@ form{
     width: 24%;
     margin-left: 61%;
     margin-top: 3.3%;
-
     border: 2px solid black;
 }
+
 
 .enviar{
     border-radius: 10px;
@@ -83,7 +77,7 @@ form{
     width: 160px; 
     font-family: serif;
     font-weight: bold;
-    margin-left: 32%;
+    margin-left: 25%;
     font-family: Arial, Helvetica, sans-serif;
 
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -96,10 +90,6 @@ form{
 
 /*------Botón volver al listado--------*/
 .index{
-    /*position: absolute; 
-    top: 37%; 
-    left: 50%;
-    transform: translate(-50%, -50%);*/
     border-radius: 10px;
     background-color: pink;
     color: black;
@@ -109,13 +99,9 @@ form{
     width: 200px; 
     font-family: serif;
     font-weight: bold;
-
-    margin-left: 28%;
-
-    /*transition: transform 0.3s ease, background-color 0.3s ease; */
+    margin-left: 19.5%;
 }
 
 .index:hover {
     background-color: rgb(249, 223, 228); 
-    /*transform: translate(-50%, -50%) scale(1.1);*/
 }
