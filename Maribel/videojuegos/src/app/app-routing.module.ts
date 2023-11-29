@@ -7,7 +7,9 @@ import { IndexComponent } from './index/index.component';
 const routes: Routes = [
   {path: 'contacto', component: ContactoComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'index', component: IndexComponent}
+  {path: '', redirectTo: '/index', pathMatch: 'full'},
+  {path: 'index', component: IndexComponent }
+
 
 
 ];
