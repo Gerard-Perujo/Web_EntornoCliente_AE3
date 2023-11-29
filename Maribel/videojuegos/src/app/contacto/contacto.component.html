@@ -1,1 +1,24 @@
-<p>contacto works!</p>
+<body> 
+    <nav> 
+        <button routerLink="/contacto" class="contacto">Contacto</button>
+        <button routerLink="/about" class="about">Sobre nosotros</button>
+        <span>Hola, </span>
+    </nav>
+    <h1>¿Necesitas ayuda?</h1>
+
+    <form method="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <label for="correo">Correo Electrónico: </label>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+        <label for="comentarios">Comentarios: </label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        <br><br>
+        <input type="submit" class="enviar" value="Enviar mi comentario"><br><br>
+        <button routerLink="/index" class="index">¡Volver al listado!</button>
+    </form>
+
+    
+</body>
