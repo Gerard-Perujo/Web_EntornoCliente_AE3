@@ -1,13 +1,33 @@
 import { Component, OnInit } from '@angular/core';
+//Se necesita incorporar ActivatedRoute para que la web pueda comprender las urls,
+//obtener información con los parámetros y mostrar la información pertinente.
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-videogame1',
   templateUrl: './videogame1.component.html',
   styleUrls: ['./videogame1.component.css']
 })
-export class Videogame1Component implements OnInit {
 
-  constructor() { }
+/*Se necesita desarrollar la siguiente clase para mostrar los detalles de los videojuegos
+como su título o la valoración.
+
+En primer lugar se inicializan los parámetros que tienen información de los juegos.
+Luego dentro del constructor, se accede a la información de la ruta actual con la clase ActivatedRoute;
+se obtiene información del videojuego mediante los parámetros de la url.
+En este caso, para ahorrar código en el index se han omitido todos salvo el id, por lo que solo
+hay que inicializar e incorporar al constructor dicho atributo.
+
+En definitiva, se necesita extraer ese parámetro id para que la página sepa qué información debe mostrar.
+Si no se pusiera el código de abajo, el componente desconocería el valor de las propiedades,
+por lo que no podría acceder a la información exacta de dicha página a la que se desea llegar.
+*/
+export class Videogame1Component implements OnInit {
+  id: number = 0;
+
+  constructor(route: ActivatedRoute) {
+    this.id = route.snapshot.params["id"];
+  }
 
   ngOnInit(): void {
   }
