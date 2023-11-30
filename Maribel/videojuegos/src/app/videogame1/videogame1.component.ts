@@ -15,21 +15,26 @@ como su título o la valoración.
 En primer lugar se inicializan los parámetros que tienen información de los juegos.
 Luego dentro del constructor, se accede a la información de la ruta actual con la clase ActivatedRoute;
 se obtiene información del videojuego mediante los parámetros de la url.
-En este caso, para ahorrar código en el index se han omitido todos salvo el id, por lo que solo
-hay que inicializar e incorporar al constructor dicho atributo.
 
-En definitiva, se necesita extraer ese parámetro id para que la página sepa qué información debe mostrar.
+En definitiva, se necesitan extraer esos parámetros para que la página sepa qué información debe mostrar.
 Si no se pusiera el código de abajo, el componente desconocería el valor de las propiedades,
 por lo que no podría acceder a la información exacta de dicha página a la que se desea llegar.
 */
 export class Videogame1Component implements OnInit {
   id: number = 0;
+  titulo: string = "";
+  compania: string = "";
+  valoracion: number = 0;
+
 
   constructor(route: ActivatedRoute) {
     this.id = route.snapshot.params["id"];
+    this.titulo = route.snapshot.params["titulo"];
+    this.compania = route.snapshot.params["compania"];
+    this.valoracion = route.snapshot.params["valoracion"];
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
   }
 
 }

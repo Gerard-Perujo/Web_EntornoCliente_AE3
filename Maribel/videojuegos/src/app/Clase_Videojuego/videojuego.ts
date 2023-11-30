@@ -4,20 +4,18 @@ export class Videojuego{
     id: number;
     titulo: string;
     compania: string;
-    imagen: string;
     valoracion: number;
 
     //Se crea el constructor con todos los parámetros para que posteriormente se puedan crear nuevos objetos Videojuego con sus propios valores.
-    constructor(id: number, titulo: string, compañia: string, valoracion: number, imagen: string){
+    constructor(id: number, titulo: string, compania: string, valoracion: number){
         this.id = id;
         this.titulo = titulo;
-        this.compania = compañia;
-        this.imagen = imagen;
+        this.compania = compania;
         this.valoracion = valoracion;
     }
 
     //Se crea el toString por si en algún momento se desea obtener por consola o parecido la siguiente cadena:
     toString(): string{
-        return `ID: ${this.id}, título: ${this.titulo}, compañía: ${this.compania}, imagen: ${this.imagen}, valoración: ${this.valoracion}`;
+        return `ID: ${this.id}, título: ${this.titulo}, compañía: ${this.compania}, valoración: ${this.valoracion}`;
     }
 }

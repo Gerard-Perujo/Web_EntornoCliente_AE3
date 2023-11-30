@@ -10,8 +10,7 @@ export class IndexComponent implements OnInit {
   //Se inicializan los atributos de la clase a los valores por defecto para garantizar un contenido mínimo.
   id: number = 0;
   titulo: string = "";
-  compañia: string = "";
-  imagen: string = "";
+  compania: string = "";
   valoracion: number = 0;
 
   //A continuación se crea un listado de videojuegos en forma de array. Se inicializa a vacío,
@@ -36,34 +35,34 @@ export class IndexComponent implements OnInit {
   este videojuego se agrega a la colección o listado de videojuegos.
   */
   constructor() { 
-  let videojuego: Videojuego = new Videojuego(1, "Nintendogs", "Nintendo", 96, "../../assets/nintendogs.jpg");
-  this.listado.push(videojuego);
+  let videojuego: Videojuego = new Videojuego(1, "Nintendogs", "Nintendo", 96);
+  this.listado.push(videojuego); 
   
-  videojuego = new Videojuego(2, "Animal Crossing: New Horizons", "Nintendo", 95, "../../assets/animal.jpg")
+  videojuego = new Videojuego(2, "Animal Crossing: New Horizons", "Nintendo", 95)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(3, "Grand Theft Auto: Vice City", " Rockstar Games", 97, "../../assets/gta.jpg")
+  videojuego = new Videojuego(3, "Grand Theft Auto: Vice City", " Rockstar Games", 97)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(4, "Outlast", "Red Barrels", 95, "../../assets/outlast.png")
+  videojuego = new Videojuego(4, "Outlast", "Red Barrels", 95)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(5, "Rayman", "Ubisoft", 97, "../../assets/rayman.jpg")
+  videojuego = new Videojuego(5, "Rayman", "Ubisoft", 97)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(6, "Donkey Kong 64", "Nintendo", 95, "../../assets/donkey.jpg")
+  videojuego = new Videojuego(6, "Donkey Kong 64", "Nintendo", 95)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(7, "Diddy Kong Racing", "Rare", 95, "../../assets/diddy.jpg")
+  videojuego = new Videojuego(7, "Diddy Kong Racing", "Rare", 95)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(8, "Super Mario Galaxy", "Nintendo", 97, "../../assets/galaxy.jpg")
+  videojuego = new Videojuego(8, "Super Mario Galaxy", "Nintendo", 97)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(9, "Pokémon Snap", "Nintendo", 91, "../../assets/pokemon.jpg")
+  videojuego = new Videojuego(9, "Pokémon Snap", "Nintendo", 91)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(10, "Tomb Raider II", "Eidos Interactive", 90, "../../assets/lara.jpg")
+  videojuego = new Videojuego(10, "Tomb Raider II", "Eidos Interactive", 90)
   this.listado.push(videojuego);
 
   }

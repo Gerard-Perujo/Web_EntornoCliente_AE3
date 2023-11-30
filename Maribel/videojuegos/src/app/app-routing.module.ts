@@ -27,7 +27,7 @@ const routes: Routes = [
   {path: '', redirectTo: '/login', pathMatch: 'full'},
   {path: 'index', component: IndexComponent },
   {path: 'login', component: LoginComponent},
-  {path: 'videogame1', component: Videogame1Component},
+  {path: 'videogame1/:id/:titulo/:compania/:valoracion', component: Videogame1Component},
   {path: 'videogame2', component: Videogame2Component},
   {path: 'videogame3', component: Videogame3Component},
   {path: 'videogame4', component: Videogame4Component},
@@ -37,7 +37,7 @@ const routes: Routes = [
   {path: 'videogame8', component: Videogame8Component},
   {path: 'videogame9', component: Videogame9Component},
   {path: 'videogame10', component: Videogame10Component}
- 
+  
 
 
 ];
