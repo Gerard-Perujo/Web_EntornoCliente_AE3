@@ -4,15 +4,15 @@
             <h1>Bienvenido</h1>
             <h4>Introduce tu Nombre de usario y Password para poder Entrar</h4>
             <label>Nombre: </label>
-            <input type="text" id="nombre">
+            <input type="text"[(ngModel)]="nombre"/>
             <br/>
             <label>Contraseña: </label>
-            <input type="password" id="pass">
+            <input type="password"[(ngModel)]="pas"/>
             <br/>
-            <div class="botones">
-            <button routerLink="/juego1"> Ir a detalle</button>
-            <button routerLink="/usuario"> Entrar</button>
+            <div class="botones" (click)="acceder()">
+            <button> Entrar</button>
             </div>
+            <h4 class="error">{{mensaje}}</h4>
         </div>
     </body>
 </div>

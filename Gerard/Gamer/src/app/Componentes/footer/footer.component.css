@@ -12,7 +12,7 @@
     grid-area: privacidad;
 }
 .privacidad label{
-    color: #111D38;
+    color:white;
     font-family: Cantarell;
     font-size: 24px;
     font-style: normal;
@@ -21,7 +21,7 @@
 }
 
 .privacidad p{
-    color: #111D38;
+    color: white;
     font-family: Cantarell;
     font-size: 16px;
     font-style: normal;
@@ -35,7 +35,7 @@
 }
 
 .Contacto label{
-    color: #111D38;
+    color: white;
     font-family: Cantarell;
     font-size: 24px;
     font-style: normal;
@@ -44,7 +44,7 @@
 }
 
 .Contacto p{
-    color: #111D38;
+    color: white;
     font-family: Cantarell;
     font-size: 16px;
     font-style: normal;

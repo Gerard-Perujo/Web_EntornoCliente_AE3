@@ -18,6 +18,7 @@ import { Juego4Component } from './Componentes/juego4/juego4.component';
 import { Juego5Component } from './Componentes/juego5/juego5.component';
 import { Juego6Component } from './Componentes/juego6/juego6.component';
 import { Juego7Component } from './Componentes/juego7/juego7.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -39,11 +40,12 @@ import { Juego7Component } from './Componentes/juego7/juego7.component';
     Juego4Component,
     Juego5Component,
     Juego6Component,
-    Juego7Component,
+    Juego7Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule.forRoot([]),
     FormsModule
   ],
   providers: [],
