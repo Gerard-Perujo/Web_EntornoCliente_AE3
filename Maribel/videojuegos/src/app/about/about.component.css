@@ -10,7 +10,7 @@ body{
     overflow: hidden;
 }
 
-/*-----------------------------------------------------------Navegador---------------------------------------------------------------*/
+/*---------------------------------------Navegador-----------------------------------------*/
 
 nav{
     background-color: pink;
@@ -45,18 +45,18 @@ nav span{
     transform: translateY(-50%);
 }
 
-/*----------------------------------------------------------------Página---------------------------------------------------------*/
+/*---------------------------------------------Página----------------------------------------*/
 
 .descripcion{
-text-align: center;
-    margin-left:200px;
-    margin-right: 200px;
-    font-size: 18px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.125em;
     background-color: rgba(255, 255, 255, 0.75);
-    margin-top: 40px;
+    margin-top: 2%; 
     font-family: Arial, Helvetica, sans-serif;
     border: 3px solid black;
-    padding: 8px;
+    padding: 0.5em; 
 }
 
 /*------Botón volver al listado--------*/
@@ -65,17 +65,17 @@ text-align: center;
     top: 37%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-    border-radius: 10px;
+    border-radius: 0.625em; /* Aproximadamente 10px */
     background-color: pink;
     color: black;
 
-    font-size: 20px;
-    height: 50px; 
-    width: 200px; 
+    font-size: 1.25em;
+    height: 3em;
+    width: 10.5em; 
     font-family: serif;
     font-weight: bold;
 
-    transition: transform 0.3s ease, background-color 0.3s ease; 
+    transition: transform 0.3s ease, background-color 0.3s ease
 }
 
 .index:hover {

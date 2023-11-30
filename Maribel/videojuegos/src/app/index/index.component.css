@@ -1,3 +1,4 @@
+/* Los siguientes elementos se posicionan correctamente cuando la pantalla es de 13'3 pulgadas*/
 
 body{
     background-image: url('../../assets/rainbow.jpg');
@@ -54,20 +55,20 @@ table{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
-    padding: 8px;
+    padding: 0.5em;
 }
 
 caption{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 th:first-child, th:nth-child(3) {
     width: 10%; 
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 th:nth-child(2) {
     width: 80%;
-    font-size: 20px;
+    font-size: 1.25em;
 }
