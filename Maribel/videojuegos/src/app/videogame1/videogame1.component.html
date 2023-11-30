@@ -5,12 +5,26 @@
         <span>Hola, </span>
     </nav>
 
-    <ol>
-        <caption>Detalles del videojuego seleccionado</caption>
-        <li>Identificador: {{id}}</li>
-        <li>Título: {{titulo}}</li>
-        <li>Compañía: {{compania}}</li>
-        <li>Valoración media: {{valoracion}}</li>
-    </ol>
+    <table>
+        <caption>¡Detalles del juego!</caption> 
+            <tr> 
+                <th>Identificador</th>
+                <th>Título</th>
+                <th>Compañía</th>
+                <th>Valoración media</th>
+                
+            </tr>
+            <tr> 
+                <td>{{id}}</td>
+                <td>{{titulo}}</td>
+                <td>{{compania}}</td>
+                <td>{{valoracion}}</td>
+                
+            </tr>
+    </table>        
+
+    <img src="../../assets/nintendogs.jpg" alt="Portada Nintendogs" title="Nintendogs">
+
+    <button routerLink="/index" class="index">¡Volver al listado!</button>
 
 </body>

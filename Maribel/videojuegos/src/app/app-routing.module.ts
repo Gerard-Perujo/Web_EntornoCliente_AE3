@@ -28,15 +28,15 @@ const routes: Routes = [
   {path: 'index', component: IndexComponent },
   {path: 'login', component: LoginComponent},
   {path: 'videogame1/:id/:titulo/:compania/:valoracion', component: Videogame1Component},
-  {path: 'videogame2', component: Videogame2Component},
-  {path: 'videogame3', component: Videogame3Component},
-  {path: 'videogame4', component: Videogame4Component},
-  {path: 'videogame5', component: Videogame5Component},
-  {path: 'videogame6', component: Videogame6Component},
-  {path: 'videogame7', component: Videogame7Component},
-  {path: 'videogame8', component: Videogame8Component},
-  {path: 'videogame9', component: Videogame9Component},
-  {path: 'videogame10', component: Videogame10Component}
+  {path: 'videogame2/:id/:titulo/:compania/:valoracion', component: Videogame2Component},
+  {path: 'videogame3/:id/:titulo/:compania/:valoracion', component: Videogame3Component},
+  {path: 'videogame4/:id/:titulo/:compania/:valoracion', component: Videogame4Component},
+  {path: 'videogame5/:id/:titulo/:compania/:valoracion', component: Videogame5Component},
+  {path: 'videogame6/:id/:titulo/:compania/:valoracion', component: Videogame6Component},
+  {path: 'videogame7/:id/:titulo/:compania/:valoracion', component: Videogame7Component},
+  {path: 'videogame8/:id/:titulo/:compania/:valoracion', component: Videogame8Component},
+  {path: 'videogame9/:id/:titulo/:compania/:valoracion', component: Videogame9Component},
+  {path: 'videogame10/:id/:titulo/:compania/:valoracion', component: Videogame10Component}
   
 
 
