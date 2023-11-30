@@ -10,7 +10,7 @@ export class IndexComponent implements OnInit {
   //Se inicializan los atributos de la clase a los valores por defecto para garantizar un contenido mínimo.
   id: number = 0;
   titulo: string = "";
-  compania: string = "";
+  compañia: string = "";
   imagen: string = "";
   valoracion: number = 0;
 
