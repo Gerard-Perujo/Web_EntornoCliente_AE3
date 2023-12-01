@@ -1,0 +1,36 @@
+<body> 
+    <nav> 
+        <button routerLink="/contacto" class="contacto">Contacto</button>
+        <button routerLink="/about" class="about">Sobre nosotros</button>
+        <span>Hola, </span>
+    </nav>
+
+    <table>
+        <caption>¡Detalles del juego!</caption> 
+            <tr> 
+                <th>Identificador</th>
+                <th>Título</th>
+                <th>Compañía</th>
+                <th>Valoración media</th>
+                
+            </tr>
+            <tr> 
+                <td>{{id}}</td>
+                <td>{{titulo}}</td>
+                <td>{{compania}}</td>
+                <td>{{valoracion}}</td>
+                
+            </tr>
+    </table>        
+
+    <img src="../../assets/nintendogs.jpg" alt="Portada Nintendogs" title="Nintendogs">
+
+    <button routerLink="/index" class="index">¡Volver al listado!</button>
+    
+    <audio autoplay>
+        <source src="../../assets/sound11.opus" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+      
+
+</body>
