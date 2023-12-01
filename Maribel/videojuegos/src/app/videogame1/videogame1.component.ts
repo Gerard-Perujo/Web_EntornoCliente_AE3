@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 //obtener información con los parámetros y mostrar la información pertinente.
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
   selector: 'app-videogame1',
   templateUrl: './videogame1.component.html',

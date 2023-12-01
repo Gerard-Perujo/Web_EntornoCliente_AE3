@@ -38,10 +38,10 @@ export class IndexComponent implements OnInit {
   let videojuego: Videojuego = new Videojuego(1, "Nintendogs", "Nintendo", 96);
   this.listado.push(videojuego); 
   
-  videojuego = new Videojuego(2, "Animal Crossing: New Horizons", "Nintendo", 95)
+  videojuego = new Videojuego(2, "Animal Crossing: Wild World", "Nintendo", 95)
   this.listado.push(videojuego);
 
-  videojuego = new Videojuego(3, "Grand Theft Auto: Vice City", " Rockstar Games", 97)
+  videojuego = new Videojuego(3, "Grand Theft Auto: San Andreas", " Rockstar Games", 97)
   this.listado.push(videojuego);
 
   videojuego = new Videojuego(4, "Outlast", "Red Barrels", 95)
