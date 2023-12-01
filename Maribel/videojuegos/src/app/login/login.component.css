@@ -50,3 +50,13 @@ button:hover{
     background-color: rgb(249, 223, 228); 
     transform: scale(1.1);
 }
+
+h3{
+    width: 30%;
+    text-align: center;
+    color: black;
+    text-shadow:
+        3px 3px 5px white, 
+        -3px -3px 5px white;
+    margin-left: 69%;
+}
