@@ -5,14 +5,22 @@
         <fieldset>
             <h1 class="log">Inicia sesión</h1>
     
-            <label for="usuario">User:</label><br>
-            <input type="text" id="usuario" name="usuario"><br><br>
+            <!--En los tipos de las cajas se debe conectar la información que se escribe con
+            la variable que almacena dicha información, como si fuera un hilo. Eso lo consigue
+            la directiva ngModel.-->
+            <label for="user">User:</label><br>
+            <input type="text[(ngModel)]" id="user" name="user"><br><br>
     
-            <label for="password">Contraseña:</label><br>
-            <input type="password" id="password" name="password"><br><br>
+            <label for="contrasena">Contraseña:</label><br>
+            <input type="password[(ngModel)]" id="contrasena" name="contrasena"><br><br>
     
-            <button routerLink="/index" class="index">Login</button>
+            <!--Al hacer click en el botón se desencadenará el evento onclick que hace referencia
+            al método loguearse, así que lo que ocurra a continuación depende de ese resultado.-->
+            <button routerLink="/index" class="index"(click)="loguearse">Login</button>
         </fieldset>
+
+        <!--Debe figurar un mensaje en caso de que no se haya podido iniciar sesión.-->
+        <h2>{{mensaje}}</h2>
     </form>
 
 
