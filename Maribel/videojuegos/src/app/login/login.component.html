@@ -9,14 +9,15 @@
             la variable que almacena dicha información, como si fuera un hilo. Eso lo consigue
             la directiva ngModel.-->
             <label for="user">User:</label><br>
-            <input type="text[(ngModel)]" id="user" name="user"><br><br>
+            <input type="text" [(ngModel)]="user" id="user" name="user"><br><br>
     
             <label for="contrasena">Contraseña:</label><br>
-            <input type="password[(ngModel)]" id="contrasena" name="contrasena"><br><br>
+            <input type="password" [(ngModel)]="contrasena" id="contrasena" name="contrasena"><br><br>
     
             <!--Al hacer click en el botón se desencadenará el evento onclick que hace referencia
             al método loguearse, así que lo que ocurra a continuación depende de ese resultado.-->
-            <button routerLink="/index" class="index"(click)="loguearse">Login</button>
+            <!--<button routerLink="/index" class="index"(click)="loguearse">Login</button>-->
+            <button class="index"(click)="loguearse">Login</button>
         </fieldset>
 
         <!--Debe figurar un mensaje en caso de que no se haya podido iniciar sesión.-->
