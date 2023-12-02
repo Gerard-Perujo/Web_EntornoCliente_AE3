@@ -13,7 +13,7 @@ import { Autentificacion } from '../Clase_Autentificación/Autentificacion';
 
 /*
 La clase del componente de iniciar sesión implementa la interfaz de ciclo de vida de dicho componenente.
-Se inicializan a su valor por defecto el nombre de las propiedades del componente.
+Se inicializan a su cadena vacía el nombre de las propiedades del componente.
 
 A continuación se inyectan las dependencias del componente en el constructor. Ambos son servicios:
 el primero para verificar usuarios y contraseñas, y el segundo para la navegabilidad. Su inyección
