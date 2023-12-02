@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Autentificacion } from '../Clase_Autentificación/Autentificacion';
 
 @Component({
   selector: 'app-videogame8',
@@ -11,9 +12,9 @@ export class Videogame8Component implements OnInit {
   titulo: string = "";
   compania: string = "";
   valoracion: number = 0;
+  hola: string | null = "";
 
-
-  constructor(route: ActivatedRoute) {
+  constructor(route: ActivatedRoute, private Autentificacion: Autentificacion) {
     this.id = route.snapshot.params["id"];
     this.titulo = route.snapshot.params["titulo"];
     this.compania = route.snapshot.params["compania"];
@@ -21,6 +22,7 @@ export class Videogame8Component implements OnInit {
   }
 
   ngOnInit(): void {
+    this.hola = this.Autentificacion.recuperarNombreUsuario();
   }
 
 }

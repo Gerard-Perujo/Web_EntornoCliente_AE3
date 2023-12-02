@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 //Se necesita incorporar ActivatedRoute para que la web pueda comprender las urls,
 //obtener información con los parámetros y mostrar la información pertinente.
 import { ActivatedRoute } from '@angular/router';
+import { Autentificacion } from '../Clase_Autentificación/Autentificacion';
 
 
 @Component({
@@ -26,9 +27,10 @@ export class Videogame1Component implements OnInit {
   titulo: string = "";
   compania: string = "";
   valoracion: number = 0;
+  hola: string | null = "";
 
 
-  constructor(route: ActivatedRoute) {
+  constructor(route: ActivatedRoute, private Autentificacion: Autentificacion) {
     this.id = route.snapshot.params["id"];
     this.titulo = route.snapshot.params["titulo"];
     this.compania = route.snapshot.params["compania"];
@@ -36,6 +38,9 @@ export class Videogame1Component implements OnInit {
   }
 
   ngOnInit(): void { 
+    this.hola = this.Autentificacion.recuperarNombreUsuario();
   }
 
 }
+
+

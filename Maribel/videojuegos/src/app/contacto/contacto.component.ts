@@ -1,4 +1,6 @@
+//Misma lógica que en 'about'.
 import { Component, OnInit } from '@angular/core';
+import { Autentificacion } from '../Clase_Autentificación/Autentificacion';
 
 @Component({
   selector: 'app-contacto',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactoComponent implements OnInit {
 
-  constructor() { }
+  hola: string | null = "";
+  constructor(private Autentificacion: Autentificacion) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void  {
+    this.hola = this.Autentificacion.recuperarNombreUsuario();
   }
 
 }

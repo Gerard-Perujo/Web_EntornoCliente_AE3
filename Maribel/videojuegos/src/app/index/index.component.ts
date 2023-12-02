@@ -1,17 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { Videojuego } from '../Clase_Videojuego/videojuego';
+import { Autentificacion } from '../Clase_Autentificación/Autentificacion';
 
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.css']
 })
+
 export class IndexComponent implements OnInit {
-  //Se inicializan los atributos de la clase a los valores por defecto para garantizar un contenido mínimo.
+  //Se inicializan los atributos de la clase a los valores por defecto o cadena vacía para garantizar un contenido mínimo.
   id: number = 0;
   titulo: string = "";
   compania: string = "";
   valoracion: number = 0;
+  hola: string | null = "";
 
   //A continuación se crea un listado de videojuegos en forma de array. Se inicializa a vacío,
   //pero está pensado para almacenar una colección de objetos de Videojuego.
@@ -34,7 +37,7 @@ export class IndexComponent implements OnInit {
   Tras la creación individual, mediante la información guardada en la variable 'videojuego', 
   este videojuego se agrega a la colección o listado de videojuegos.
   */
-  constructor() { 
+  constructor(private Autentificacion: Autentificacion) { 
   let videojuego: Videojuego = new Videojuego(1, "Nintendogs", "Nintendo", 96);
   this.listado.push(videojuego); 
   
@@ -68,6 +71,8 @@ export class IndexComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.hola = this.Autentificacion.recuperarNombreUsuario();
   }
 
 }
+
