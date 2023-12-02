@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Autentificacion } from '../Clase_Autentificación/Autentificacion';
 
-//Esto se genera automáticamente, siendo los metadatos del componente, en concreto su selecto y las rutas a su HTML y CSS.
+//Esto se genera automáticamente, siendo los metadatos del componente, en concreto su selector y las rutas a su HTML y CSS.
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',

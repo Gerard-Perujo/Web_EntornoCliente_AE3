@@ -65,7 +65,7 @@ nav span{
     top: 37%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-    border-radius: 0.625em; /* Aproximadamente 10px */
+    border-radius: 0.625em; 
     background-color: pink;
     color: black;
 
