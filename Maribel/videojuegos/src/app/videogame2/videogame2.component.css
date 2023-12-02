@@ -33,7 +33,7 @@ nav button{
     border: white;
 }
 
-.contacto:hover{
+.contacto:hover, .indexnav:hover{
     font-style: italic;
     border: white;
 }

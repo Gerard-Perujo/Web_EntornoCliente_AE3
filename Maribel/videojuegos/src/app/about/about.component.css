@@ -28,7 +28,7 @@ nav button{
     padding: 8px;
 }
 
-.contacto:hover{
+.contacto:hover, .indexnav:hover{
     font-style: italic;
     border: white;
 }

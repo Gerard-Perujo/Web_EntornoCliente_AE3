@@ -27,7 +27,7 @@ nav button{
     padding: 8px;
 }
 
-.about:hover{
+.about:hover, .indexnav:hover{
     font-style: italic;
     border: white;
 }

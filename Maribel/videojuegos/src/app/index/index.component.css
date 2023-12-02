@@ -33,7 +33,7 @@ nav button{
     border: white;
 }
 
-.contacto:hover{
+.contacto:hover, .login:hover{
     font-style: italic;
     border: white;
 }
@@ -44,6 +44,12 @@ nav span{
     top: 50%; 
     transform: translateY(-50%);
 }
+
+.indexnav{
+    opacity: 0.5; 
+    cursor: not-allowed;
+}
+
 
 /*----------------------------------------------------------Cuerpo--------------------------------------------------------------------*/
 
