@@ -1,7 +1,7 @@
 .lista{
    background-image: url(/assets/imagenes/sonicc.png);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover;  
 }
 
 
@@ -47,7 +47,7 @@
 }
 
 .telefono{
-    background-color: rgba(85, 43, 185, 0.182);
+    background-color:  rgba(255, 255, 255, 0.374);
 }
 
 .email{

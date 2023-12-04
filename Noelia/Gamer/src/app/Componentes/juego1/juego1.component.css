@@ -1,5 +1,5 @@
 .lista{
-    background-image: url(/assets/imagenes/Fondo1.png);
+    background-image: url(/assets/imagenes/EldenRing1.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -68,12 +68,12 @@ button{
     width: 142px;
     height: 29px;
    margin-top: 20px;
-   color: #DEEDCF;
+   color: rgb(78, 16, 187);
     font-family: Cantarell;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    background: #002050;
+    background: rgb(165, 132, 241);
     border-radius: 20px;
 }
 

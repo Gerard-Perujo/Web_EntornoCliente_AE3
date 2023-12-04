@@ -2,8 +2,8 @@
     padding-top: 25px;
     display: grid;
     grid-template:
-    "vacio3 privacidad vacio4 Contacto vacio5 redesSociales vacio6" 111px/
-        auto   275px    auto  275px     auto    275px     auto;
+    "vacio3 privacidad vacio4 Contacto vacio5 redesSociales vacio6 fotominion vacio7"  111px/
+        auto   275px    auto  275px     auto    275px     auto   275px;
 
 }
 
@@ -72,6 +72,12 @@
     font-style: normal;
     font-weight: 500;
     line-height: 22.4px;
+}
+
+.fotominion{
+    text-align: right;
+    grid-area: fotominion;
+    padding-bottom: 200px;
 }
 
 svg{
