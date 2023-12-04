@@ -1,0 +1,21 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(155, 216, 244, 0.396);    
+  
+}
+
+.header{
+    background-image: url(/assets/imagenes/relampagos.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+
+.footer{
+    background-color: #0c1529;
+    height: 250px;
+    border-top: 1px black solid;
+    
+}

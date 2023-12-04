@@ -1,0 +1,86 @@
+.lista{
+    background-image: url(/assets/imagenes/mandoplay.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.contenedor{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 520px;
+}
+
+
+.login{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.52);
+    border: 1px black solid;
+    border-radius: 260px;
+    height: 320px;
+    width: 500px;
+    padding: 8px;
+    
+}
+
+h1{
+    color: black;
+    font-family: Cantarell;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+
+h4{
+    color:black;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+label{
+    color:black;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+.login input{
+    margin:8px;
+}
+.botones{
+    display:flex;
+    justify-content: center;
+    gap:32px;
+}
+button{
+    width: 142px;
+    height: 29px;
+    color: rgb(78, 16, 187);
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background:rgb(165, 132, 241);
+    border-radius: 20px;
+    margin-top: 16px;
+}
+button:hover{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    background:  rgba(142, 0, 148, 0.34);
+
+}
+
+.error{
+    color:rgb(164, 1, 1);
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
