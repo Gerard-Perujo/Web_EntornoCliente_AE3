@@ -1,0 +1,20 @@
+<div class="lista">
+    <body class="contenedor">
+        <div class="login">
+            <h1>Bienvenido</h1>
+            <label>Nombre </label>
+            <br>
+            <input type="text"[(ngModel)]="nombre"/>
+            <br/>
+            <label>Contraseña </label> 
+            <br>
+            <input type="password"[(ngModel)]="pas"/>
+            <br/>
+            <div class="botones" (click)="acceder()">
+            <button> Entrar</button>
+            </div>
+            <h4 class="error">{{mensaje}}</h4>
+        </div>
+    </body>
+</div>
+

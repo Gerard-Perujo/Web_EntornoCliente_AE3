@@ -1,0 +1,55 @@
+.lista{
+   background-image: url(/assets/imagenes/sonicc.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.contenedor{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    height: 470px;
+    padding-left: 90px;
+    
+}
+
+.Contacto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.644);
+    border: 3px black solid;
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    padding-bottom: 50px;
+}
+
+.Contacto label{
+    color: black;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.Contacto p{
+    color:black;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+.telefono{
+    background-color: rgba(85, 43, 185, 0.182);
+}
+
+.email{
+    background-color: rgba(255, 255, 255, 0.374);
+}

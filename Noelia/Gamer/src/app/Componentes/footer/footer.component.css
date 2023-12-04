@@ -1,0 +1,83 @@
+.contenedorFooter{
+    padding-top: 25px;
+    display: grid;
+    grid-template:
+    "vacio3 privacidad vacio4 Contacto vacio5 redesSociales vacio6" 111px/
+        auto   275px    auto  275px     auto    275px     auto;
+
+}
+
+.privacidad{
+    text-align: left;
+    grid-area: privacidad;
+}
+.privacidad label{
+    color:white;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.privacidad p{
+    color: white;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+.Contacto{
+    text-align: left;
+    grid-area: Contacto;
+}
+
+.Contacto label{
+    color: white;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.Contacto p{
+    color: white;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+.redesSociales{
+    text-align: left;
+    grid-area: redesSociales;
+}
+.redesSociales label{
+    color:white;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.redesSociales p{
+    color: white;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+svg{
+    background: aliceblue;
+}
+
+img{
+    padding-left: 20px;
+}

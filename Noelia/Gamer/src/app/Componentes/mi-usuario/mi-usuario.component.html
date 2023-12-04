@@ -1,0 +1,36 @@
+<div class="lista">
+<app-navegador></app-navegador>
+<body class="contenedor">
+    <div class="usuario">
+        <h1>Lista de los Videojuegos en Stock</h1>
+        <div class="contenido">
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <td>ID</td>
+                        <td>Titulo</td>
+                        <td>Valoracion</td>
+                    </tr>
+                    <tr *ngFor="let v of listaVideojuegos">
+                        <td >{{v.id}}</td>
+                        <td >{{v.titulo}}</td>
+                        <td >{{v.valoracion}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="links">
+                <label>Opciones</label>
+                <a routerLink="/juego1/1/Elden Ring/FromSoftware/10">Detalles juego</a>
+                <a routerLink="/juego2/2/The Elder Scrolls V: Skyrim/Bethesda Softworks/9.8">Detalles juego</a>
+                <a routerLink="/juego3/3/Sekiro: Shadows Die Twice/From Software/9.5">Detalles juego</a>
+                <a routerLink="/juego4/4/God of War: Ragnarok/Santa Monica Studio/9.8">Detalles juego</a>
+                <a routerLink="/juego5/5/The Witcher 3: Wild Hunt/CD Projekt RED/9.5">Detalles juego</a>
+                <a routerLink="/juego6/6/Fallout 3/Bathesda Softworks/9.5">Detalles juego</a>
+                <a routerLink="/juego7/7/Dark Souls III/From Sorftware/9.5">Detalles juego</a>
+            </div>
+        </div>
+        <button routerLink="/">Ir a login</button>
+    </div>
+    
+</body>
+</div>

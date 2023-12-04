@@ -1,0 +1,84 @@
+.lista{
+    background-image: url(/assets/imagenes/Fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 470px;
+    padding-bottom: 10px;
+   
+}
+
+h1{
+    color: #111D38;
+    font-family: Cantarell;
+    font-size: 24px;
+    font-style:oblique;
+    font-weight: 500;   
+}
+
+.juego{
+    background-color: rgba(255, 255, 255, 0.644);
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 10px;
+    height: 450px;
+    width: 1000px;
+    padding: 8px;
+}
+
+.imagen img{
+    width: 200px;
+    height: 300px;
+}
+.targeta{
+    display:flex;
+    justify-content: center;
+    gap:200px;
+    padding:8px;
+}
+
+.contenido{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding:8px;
+    border:2px black solid;
+    background-color: rgba(240, 255, 255, 0.7);
+}
+
+.contenido label{
+    padding:8px;
+}
+
+label{
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #111D38;
+}
+
+button{
+    width: 142px;
+    height: 29px;
+   margin-top: 20px;
+   color: #DEEDCF;
+    font-family: Cantarell;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    background: #002050;
+    border-radius: 20px;
+}
+
+button:hover{
+    box-shadow: 10px 4px 10px 0px rgba(0, 0, 0, 0.50);
+    background:  rgba(142, 0, 148, 0.54);
+
+}
